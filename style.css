@@ -1,0 +1,44 @@
+Body {
+    Background-color: #e6f0ff; /* Bleu clair pour le fond */
+    Color: #000;
+    Font-family: Arial, sans-serif;
+}
+
+/* Exemple de section stylisée en bleu */
+Header, footer, .section-title, .btn-primary {
+    Background-color: #007BFF; /* Bleu principal */
+    Color: white;
+}
+
+/* Liens */
+A {
+    Color: #0056b3;
+    Text-decoration: none;
+}
+A:hover {
+    Color: #003d80;
+}
+
+/* Boutons */
+Button, .btn {
+    Background-color: #007BFF;
+    Color: white;
+    Border: none;
+    Padding: 10px 20px;
+    Border-radius: 5px;
+}
+Button:hover, .btn:hover {
+    Background-color: #0056b3;
+}
+
+/* Titres */
+H1, h2, h3 {
+    Color: #003d80;
+}
+
+/* Autres éléments personnalisés */
+.navbar, .menu {
+    Background-color: #007BFF;
+    Color: white;
+}
+

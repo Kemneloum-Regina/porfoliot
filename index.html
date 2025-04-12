@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio IgoTech</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>IgoTech</h1>
+      <nav>
+        <div class="burger" id="burger">
+          <span></span><span></span><span></span>
+        </div>
+        <ul id="nav-links" class="nav-links">
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#realisations">Réalisations</a></li>
+          <li><a href="#temoignages">Témoignages</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="accueil" class="hero">
+    <div class="container">
+      <h2>Bienvenue chez IgoTech</h2>
+      <p>Votre partenaire en communication digitale</p>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Nos Services</h2>
+      <div class="cards">
+        <div class="card" data-aos="fade-up" data-aos-delay="100">
+          <h3>Création de sites web</h3>
+          <p>Sites modernes, responsives et optimisés pour le référencement.</p>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-delay="200">
+          <h3>Gestion des réseaux sociaux</h3>
+          <p>Stratégies efficaces pour développer votre présence en ligne.</p>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-delay="300">
+          <h3>Marketing digital</h3>
+          <p>Campagnes percutantes pour booster votre visibilité.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="realisations" class="realisations">
+    <div class="container">
+      <h2>Nos Réalisations</h2>
+      <div class="gallery">
+        <div class="project"><img src="images/projet1.jpg" alt="Projet 1"><p>Site vitrine pour un artisan</p></div>
+        <div class="project"><img src="images/projet2.jpg" alt="Projet 2"><p>Landing page pour une start-up</p></div>
+        <div class="project"><img src="images/projet3.jpg" alt="Projet 3"><p>Boutique en ligne pour une marque locale</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="temoignages" class="temoignages">
+    <div class="container">
+      <h2>Témoignages</h2>
+      <div class="testimonials">
+        <div class="testimonial"><p>"IgoTech a transformé notre présence en ligne."</p><h4>— Sophie</h4></div>
+        <div class="testimonial"><p>"Une équipe à l'écoute et créative."</p><h4>— Karim</h4></div>
+        <div class="testimonial"><p>"Stratégie digitale au top."</p><h4>— Laura</h4></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 IgoTech. Tous droits réservés.</p>
+      <div class="socials">
+        <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+        <a href="#"><img src="icons/linkedin.svg" alt="LinkedIn"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <script src="script.js"></script>
+</body>
+</html>
